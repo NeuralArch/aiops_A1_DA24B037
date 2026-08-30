@@ -49,6 +49,10 @@ Demonstrates dataset versioning using DVC with an SSH remote:
 3. **Rollback** — Demonstrated reverting to `v1` using `git checkout v1` + `dvc checkout`, with terminal output (`wc -l file_list.csv`) confirming the restored row count exactly matches the original v1 snapshot.
 
 ## Question 4 — Capstone: End-to-End Reproducibility Drill (Partner A)
+
+
+Repo Link - https://github.com/NeuralArch/Q4_DA24B037_DA24B038.git
+
 `train.py` implements the **Partner A** portion of the reproducibility protocol:
 
 - Trains a `RandomForestClassifier` on the Iris dataset with a fixed seed (`SEED = 42`)
